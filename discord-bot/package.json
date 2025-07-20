@@ -1,0 +1,19 @@
+{
+  "name": "discord-bot",
+  "version": "1.0.0",
+  "description": "Discord Bot mit Thread-basiertem Ticket-System und Server Logging",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js",
+    "deploy-commands": "node deploy-commands.js"
+  },
+  "keywords": ["discord", "bot", "tickets", "logging"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/builders": "^1.10.0",
+    "discord.js": "^14.16.3",
+    "dotenv": "^16.4.5"
+  }
+}
